@@ -15,6 +15,7 @@ const Currencies = (props) => {
 
     return (
         <div className="currencies">
+            <h1>Select a currency to see current price in USD: </h1>
             {currencies.map((coin, index) => {
                 const { name, symbol } = coin;
                 

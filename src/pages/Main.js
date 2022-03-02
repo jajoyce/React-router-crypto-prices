@@ -1,7 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Main = (props) => {
-  return <h1>This is the Home Page</h1>;
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <Link to="/currencies">
+        <h3>Go to currencies</h3>
+      </Link>
+    </div>
+  );
 };
 
 export default Main;
